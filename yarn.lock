@@ -1542,36 +1542,37 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@cesium/engine@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@cesium/engine/-/engine-3.0.1.tgz#c2663cbbc672f314a9bb4bea3b2517af301083fa"
-  integrity sha512-EDZLbW4xiPnJ+8iv91xK5oN72Qi9FB8EPQVc2dLB+WvxB5P4aHQJhjalA/mBWF/7+gdU77sGq5W+dLC9DF3b1A==
+"@cesium/engine@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@cesium/engine/-/engine-6.2.0.tgz#d0ef9af567f73e30f279f592423f2833c438eacc"
+  integrity sha512-9Iv0JFsCp7wGi7ZzP88WlkBMfOjA49obFJ4I+p2gNIGSmKZRPdstzEqUWjyJDZeck3sZaLfYUsyRDmDCgOIaBw==
   dependencies:
     "@tweenjs/tween.js" "^21.0.0"
     "@zip.js/zip.js" "2.4.x"
     autolinker "^4.0.0"
     bitmap-sdf "^1.0.3"
     dompurify "^3.0.2"
+    draco3d "^1.5.1"
     earcut "^2.2.4"
     grapheme-splitter "^1.0.4"
     jsep "^1.3.8"
     kdbush "^4.0.1"
-    ktx-parse "^0.5.0"
+    ktx-parse "^0.6.0"
     lerc "^2.0.0"
     mersenne-twister "^1.1.0"
-    meshoptimizer "^0.19.0"
+    meshoptimizer "^0.20.0"
     pako "^2.0.4"
     protobufjs "^7.1.0"
     rbush "^3.0.1"
     topojson-client "^3.1.0"
     urijs "^1.19.7"
 
-"@cesium/widgets@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@cesium/widgets/-/widgets-3.0.1.tgz#35ffc8e376f0b033e5a85a05e59c71b75f8baa87"
-  integrity sha512-VZokEo7oAR23XphiraXpGCp/XsccDIYq8QOMfPho3+kvtru49HOx6/ZDM3IyUXwVvshfrlE92P8c+67Nae4yDg==
+"@cesium/widgets@^4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@cesium/widgets/-/widgets-4.4.0.tgz#573d9d7e834053b33f386f09811e26e15402c829"
+  integrity sha512-K3kGy9rQAc1HVhPy4YE0ZIYK2RoQ9USpYh2l6NqtqFYXQy7buyctPjPC8aOvqX2+3Nn91+AOOyD1DHmkezR9BA==
   dependencies:
-    "@cesium/engine" "^3.0.1"
+    "@cesium/engine" "^6.2.0"
     nosleep.js "^0.12.0"
 
 "@colors/colors@1.5.0":
@@ -4495,13 +4496,13 @@ caniuse-lite@^1.0.30001503:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001513.tgz#382fe5fbfb0f7abbaf8c55ca3ac71a0307a752e9"
   integrity sha512-pnjGJo7SOOjAGytZZ203Em95MRM8Cr6jhCXNF/FAXTpCTRTECnqQWLpiTRqrFtdYcth8hf4WECUpkezuYsMVww==
 
-cesium@1.107.2:
-  version "1.107.2"
-  resolved "https://registry.yarnpkg.com/cesium/-/cesium-1.107.2.tgz#109d8d2a8bbf977d01f4a9ec5e051d865f9cca70"
-  integrity sha512-qQDVyY3ZORbfn/8LM4v7vPOZZBMyVBwxJsC0SAbGEOH6hVR+wEDHjBCzphSJFppmomy01+lS+PsA5wcNpWtOFw==
+cesium@1.113.0:
+  version "1.113.0"
+  resolved "https://registry.yarnpkg.com/cesium/-/cesium-1.113.0.tgz#5a3a5a2806c8f73fb822d2e982b70f246fb18d4c"
+  integrity sha512-OtbeMGXZn2dlNVYWCeq0JeGjgFPikXp6aTjo/azzuvOTj3JwgVie0tgNUGVlYDVi+fMPQqttC14lJbPYRL7etw==
   dependencies:
-    "@cesium/engine" "^3.0.1"
-    "@cesium/widgets" "^3.0.1"
+    "@cesium/engine" "^6.2.0"
+    "@cesium/widgets" "^4.4.0"
 
 chai@^4.3.7:
   version "4.3.7"
@@ -5084,6 +5085,11 @@ dotenv@^16.0.0:
   version "16.3.1"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
   integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
+
+draco3d@^1.5.1:
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/draco3d/-/draco3d-1.5.6.tgz#0d570a9792e3a3a9fafbfea065b692940441c626"
+  integrity sha512-+3NaRjWktb5r61ZFoDejlykPEFKT5N/LkbXsaddlw6xNSXBanUYpFc2AXXpbJDilPHazcSreU/DpQIaxfX0NfQ==
 
 duplexify@^3.5.0, duplexify@^3.6.0:
   version "3.7.1"
@@ -7119,10 +7125,10 @@ kolorist@^1.6.0:
   resolved "https://registry.yarnpkg.com/kolorist/-/kolorist-1.8.0.tgz#edddbbbc7894bc13302cdf740af6374d4a04743c"
   integrity sha512-Y+60/zizpJ3HRH8DCss+q95yr6145JXZo46OTpFvDZWLfRCE4qChOyk1b26nMaNpfHHgxagk9dXT5OP0Tfe+dQ==
 
-ktx-parse@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/ktx-parse/-/ktx-parse-0.5.0.tgz#b4025bbc73ac5386ac37e869de455eab915261bc"
-  integrity sha512-5IZrv5s1byUeDTIee1jjJQBiD5LPDB0w9pJJ0oT9BCKKJf16Tuj123vm1Ps0GOHSHmeWPgKM0zuViCVuTRpqaA==
+ktx-parse@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/ktx-parse/-/ktx-parse-0.6.0.tgz#69e12a511cf345546da27b5b046182f5f31f68f9"
+  integrity sha512-hYOJUI86N9+YPm0M3t8hVzW9t5FnFFibRalZCrqHs/qM2eNziqQzBtAaF0ErgkXm8F+5uE8CjPUYr32vWlXLkQ==
 
 lazy-universal-dotenv@^4.0.0:
   version "4.0.0"
@@ -7387,10 +7393,10 @@ mersenne-twister@^1.1.0:
   resolved "https://registry.yarnpkg.com/mersenne-twister/-/mersenne-twister-1.1.0.tgz#f916618ee43d7179efcf641bec4531eb9670978a"
   integrity sha512-mUYWsMKNrm4lfygPkL3OfGzOPTR2DBlTkBNHM//F6hGp8cLThY897crAlk3/Jo17LEOOjQUrNAx6DvgO77QJkA==
 
-meshoptimizer@^0.19.0:
-  version "0.19.0"
-  resolved "https://registry.yarnpkg.com/meshoptimizer/-/meshoptimizer-0.19.0.tgz#1669e6d788ad3ffd238a65184e478355642ca979"
-  integrity sha512-58qz5Qc/6Geu8Ib3bBWERE5R7pM5ErrJVo16fAtu6ryxVaE3VAtM/u2vurDxaq8AGZ3yWxuM/DnylTga5a4XCQ==
+meshoptimizer@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/meshoptimizer/-/meshoptimizer-0.20.0.tgz#890eaeafa2b5730a0c58770fdf3b1fe77b746bf5"
+  integrity sha512-olcJ1q+YVnjroRJpCL1Dj5aZxr2JMr2hRutMUwhuHZvpAL7SIZgOT6eMlFF4TbBGSR89tawE/gqB79J/LrW/Nw==
 
 methods@~1.1.2:
   version "1.1.2"
